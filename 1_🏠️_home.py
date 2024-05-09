@@ -5,19 +5,19 @@ import matplotlib.pyplot as plt
 st.set_page_config(layout='wide')
 
 if 'data1' not in st.session_state:
-    df_data1 = pd.read_csv('dados/priceelastic.csv')  # Carregue o primeiro DataFrame
+    df_data1 = pd.read_csv('dados/priceelastic.csv')  
     st.session_state['data1'] = df_data1
 
 if 'data2' not in st.session_state:
-    df_data2 = pd.read_csv('dados/crossprice.csv')  # Carregue o segundo DataFrame
+    df_data2 = pd.read_csv('dados/crossprice.csv')  
     st.session_state['data2'] = df_data2
 
 if 'data3' not in st.session_state:
-    df_data3 = pd.read_csv('dados/order_price.csv')  # Carregue o segundo DataFrame
+    df_data3 = pd.read_csv('dados/order_price.csv')  
     st.session_state['data3'] = df_data3
 
 if 'data4' not in st.session_state:
-    df_data4 = pd.read_csv('dados/test.csv')  # Carregue o segundo DataFrame
+    df_data4 = pd.read_csv('dados/test.csv')  
     st.session_state['data4'] = df_data4
 
 
